@@ -24,10 +24,13 @@ docs/
 
 ## 협업 규칙
 
-- `main` 브랜치는 보호됨 — 직접 push 금지, **Pull Request로만 병합**
-- 작업 브랜치 이름: `feat/기능명`, `docs/문서명` (예: `feat/ecg-chart`, `docs/july-report`)
-- PR은 팀원 **1명 이상 approve** 후 merge (회의록 등 단순 문서는 셀프 머지 허용)
-- 커밋 메시지: 앞에 타입을 붙이고 한글 사용 가능 (`feat:`, `fix:`, `docs:`)
+자세한 규칙은 **[CONTRIBUTING.md](CONTRIBUTING.md)** 를 참고하세요. 요약:
+
+- 브랜치 체계: `main`(안정) ← `develop`(통합) ← 작업 브랜치
+- 작업 브랜치 이름: `전략/#이슈번호-제목` (예: `feat/#5-ecg-chart`)
+- 이슈 생성 → `develop`에서 브랜치 생성 → 작업 → `develop`으로 PR
+- PR은 팀원 **1명 이상 approve** 후 merge
+- 커밋 메시지: `태그: 설명` 형식, 한글 사용 가능 (`feat:`, `fix:`, `docs:` 등)
 
 ## 데이터 취급 주의
 

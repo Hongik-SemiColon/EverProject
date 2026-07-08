@@ -35,9 +35,14 @@ docs/planning/  기능 기획, Figma·Affine 링크
 
 ## 협업 규칙
 
-- `main` 보호: PR로만 병합, 팀원 1명 이상 approve (단순 문서는 셀프 머지 허용)
-- 브랜치 이름: `feat/기능명`, `docs/문서명`
-- 커밋 메시지: `feat:`, `fix:`, `docs:` 타입 접두어 + 한글 허용
+> 2026-07-08 변경: main 단일 체계에서 main + develop 2단 체계로 확장 (팀 결정).
+> 상세 규칙은 CONTRIBUTING.md가 기준 문서.
+
+- 브랜치 체계: `main`(안정) ← `develop`(통합) ← 작업 브랜치
+- `main`·`develop` 보호: PR로만 병합, 팀원 1명 이상 approve
+- 브랜치 이름: `전략/#이슈번호-제목` (예: `feat/#5-ecg-chart`)
+- 커밋 메시지: `feat:`, `fix:`, `docs:` 등 타입 접두어 + 한글 허용
+- 원격: https://github.com/Hongik-SemiColon/EverProject (Organization: Hongik-SemiColon)
 
 ## 데이터 관리
 
