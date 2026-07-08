@@ -1,0 +1,40 @@
+# === OS ===
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# === IDE ===
+.vscode/
+.idea/
+*.suo
+*.user
+
+# === 빌드 산출물 (스택 미정이라 범용으로 커버) ===
+# 빌드된 exe는 커밋하지 말고 GitHub Releases로 배포
+*.exe
+build/
+dist/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node / Electron
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# C# / .NET
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+
+# === 대용량 데이터 (원본은 저장소 밖 클라우드에 보관) ===
+data/raw/
+*.zip
+*.7z
